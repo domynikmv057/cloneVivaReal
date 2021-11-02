@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+            
+            <ul id="menuNav">
+                <li><a href="index.html"><img src="https://cdn1.vivareal.com/p/1-2122731/v/static/app/svg/styleguide/logo/vivareal-5bcdffca.svg" alt="" srcset=""></a></li>
+                <li><a href="#">COMPRAR</a></li>
+                <li><a href="#">ALUGAR</a></li>
+                <li><a href="#">IMÓVEIS NOVOS</a></li>
+                <li><a href="#">DESCOBRIR</a></li>
+                <li><a href="#">FINANCIAMENTO</a></li>
+            </ul>
+            
+            <ul id="menuEntrar">
+                <li><a href="#">ANUNCIAR IMÓVEIS</a></li>
+                <li><a href="#">ENTRAR</a></li>
+    
+            </ul>
+    </nav>
+    <div id="containerPrincipal">
+        <section id="route">
+            <ol>
+                <li><a href="#">Viva Real</a> </li>
+                <li> . </li>
+                <li><a href="#">Venda</a></li>
+            </ol>
+        </section>
+        <main>
+           <section id="ladEsque">
+                <section id="blocoBusca">
+                    <form action="submit">
+                        <div id="formBusca">
+                            <label for="busca">LOCALIZAÇÃO DO IMÓVEL</label>
+                            <input type="text" name="busca" id="busca" placeholder="Digite uma rua, bairro ou cidade">
+                            <div id="testandoUm">
+                                <ul id="testandoDois">
+                                    <li class="oooooo"><button id="excluirClic" type="button"> aaaaa </button></li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div  id="formCheck" >
+                            <label for="">IMÓVEL COM</label>
+                            <div id="checkDiv" class="form-check form-switch">    
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                <label id="labelCheck" for="flexSwitchCheckDefault">Tour Virtual ou Vídeos</label>
+                            </div>       
+                        </div>
+    
+                        <div id="formList">
+                            <label for="selectList">TIPO DE IMÓVEL</label>
+                            <select name="" id="selectList">
+                                <option value="v1"selected>Mostrar Todos</option>
+                            </select>
+                        </div>
+                        
+                        <div id="formMinMax">
+                            <div id="formMin">
+                                <label for="minPrice">PREÇO MÍNIMO</label>
+                                <input  type="tel" name="" id="minPrice" placeholder="R$">
+                            </div>
+                            <div id="formMax">
+                                <label for="maxPrice">PREÇO MÁXIMO</label>
+                                <input  type="tel" name="" id="minPrice" placeholder="R$ ilimitado">
+                            </div>
+                        </div>
+    
+                        <div id="formRadio">
+                            <label for="btn-check-outlined">NÚMERO DE QUARTOS</label>
+                            <ul id="checkList">
+                                <li>
+                                    <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                    <label class="btn btn-outline-primary" id="radioOnn" for="btn-check-outlined" >1+</label><br>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                    <label class="btn btn-outline-primary" id="radioOff" for="btn-check-outlined" >2+</label><br>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                    <label class="btn btn-outline-primary" id="radioOff" for="btn-check-outlined" >3+</label><br>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                    <label class="btn btn-outline-primary" id="radioOff" for="btn-check-outlined" >4+</label><br>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                    <label class="btn btn-outline-primary" id="radioOff" for="btn-check-outlined" >5+</label><br>
+                                </li>
+                            </ul>
+                            
+                        </div>
+    
+                    </form>
+                    
+                </section>
+
+                <section id="blocoEstra">
+                    <div id="areaMinMax">
+                        <div id="fomAreaMin">
+                            <label for="minArea">ÁREA MÍNIMA</label>
+                            <input  type="tel" name="" id="minArea" placeholder="m²">
+                        </div>
+                        <div id="fomAreaMax">
+                            <label for="minArea">ÁREA MÁXIMA</label>
+                            <input  type="tel" name="" id="minArea" placeholder="ilimitado m²">
+                        </div>
+                    </div>
+
+                    <div id="radioButtom">
+                        <label for="btn-check-outlined">NÚMERO DE VAGAS NA GARAGEM</label>
+                        <ul id="checkList">
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >1+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >2+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >3+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >4+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >5+</label><br>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <div id="radioButtom">
+                        <label for="btn-check-outlined">NÚMERO DE BANHEIROS</label>
+                        <ul id="checkList">
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >1+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >2+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >3+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >4+</label><br>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off" >
+                                <label class="btn btn-outline-primary" id="radioGaragen" for="btn-check-outlined" >5+</label><br>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </section>
+           </section>
+    
+            <section id="ladDirei">
+                <section id="menuDirei">
+                    <ul id="direiNav">
+                        <li><button class="btnDirei" id="btnPrinci">COMPRAR</button></li>
+                        <li><button class="btnDirei">ALUGAR</button></li>
+                        <li><button class="btnDirei">IMÓVEIS NOVOS</button></li>
+                    </ul>
+                    <ul id="oderNav">
+                        <li><i  class="fas fa-grip-lines "></i><p>Ordernar por</p></li>
+                        <li id="selecList"><i class="fas fa-th-list"></i></li>
+                        <li><i class="fas fa-th-large"></i></li>
+                        <li><i class="fas fa-th"></i></li>
+                    </ul>
+                </section> 
+    
+                <section class="aparList">
+                    <h6 class="totalDeApart"></h6>
+                    <div class="seApaga"></div>
+                    <ul class="listaDeApartamentos">
+                    </ul>
+                </section>
+            </section>
+        </main>
+    </div>
+
+<script src="/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,506 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    padding: 0!important;
+}
+#containerPrincipal {
+    
+}
+
+/*      NAV BAR     */
+nav {
+    height: 50px !important;
+    background-color: #1190CD;
+    color: #ffff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 0;
+}
+
+
+nav ul li {
+    height: 50px;
+    font-size: 13px;
+}
+
+nav ul li a {
+    padding:  15px 15px 0 0px;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: #249AD1;
+    color: #ffff;
+}
+
+nav ul li a:hover {
+    background-color: #249AD1;
+    color: #ffff;
+}
+
+#menuNav {
+    display: flex;
+    list-style: none;
+    color: #ffff;
+    width: 75%;
+    margin-left: 5%;
+}
+
+#menuEntrar {
+    text-align: center;
+    height: 100%;
+    font-size: 13px;}
+
+#logoMenu {
+    text-align: center;
+    height: 100%;
+    font-size: 13px;
+}
+
+#route {
+    margin-left: 5%;
+    height: 60px;
+}
+
+#route ol {
+    display: flex;
+    padding: 0;
+}
+#route ol li {
+    padding: 20px 0;
+    font-size: 13px;
+}
+#route li a {
+    text-decoration: none;
+    color: black;
+}
+#route li a:hover {
+    text-decoration: none;
+    color: #249AD1;
+}
+/*      FIM NAV      */
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#menuDirei {
+    width: 50vw;
+    height: 45px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#direiNav {
+    display: flex;
+}
+
+#direiNav li {
+    
+}
+
+.btnDirei {
+    border:  none;
+    background-color: #ffff;
+    color: #119DDA;
+    font-size: 13px;
+    font-weight: 500;
+    height: 44px;
+    padding: 0 20px;
+}
+.btnDirei:hover {
+    background-color: #ECF6FB;
+}
+
+#btnPrinci {
+    border-bottom: 4px solid #1190CD;
+}
+
+#btnPrinci:hover {
+    background-color: #ffff;
+}
+
+#oderNav {
+    display: flex;
+}
+
+#oderNav li {
+   padding: 10px;
+}
+#oderNav p {
+    display: inline;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#selecList {
+    background-color: #bedbe7b9;
+    border-radius: 10%;
+    height: 40px;
+}
+
+.fa-th-list {
+    color: #1190CD;
+}
+
+/* FIM Nav direita*/
+
+
+/* Lado direito */
+#ladDirei {
+    margin-left: 20px;
+}
+/*  Esquerdo Bloco */
+#ladEsque {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#blocoBusca {
+    float: right;
+    width: 300px;
+    background-color: #FDD685;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
+
+/* Buscador */
+
+#formBusca {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+}
+#busca {
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Botao On Off */
+
+#formCheck {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#flexSwitchCheckDefault {
+    width: 50px;
+    height: 30px;
+}
+
+#labelCheck {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+#checkDiv {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/* Lista de tipos */
+
+#formList {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#selectList {
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Preço min max */
+
+#formMinMax {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-image: url(/imagens/Linha.png);
+    background-position: center;
+    background-size: 70%;
+    background-position-y: 40%;
+}
+
+#formMin {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+#formMax {
+    display: flex;
+    flex-direction: column;
+}
+
+#minPrice {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    text-align: right;
+
+}
+
+#formMinMax input::placeholder{
+    text-align: left;
+}
+
+/* Check Box*/
+
+#formRadio {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#checkList {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#checkList li {
+    margin: 5px;
+}
+
+#radioOff {
+    width: 40px;
+    height: 30px;
+    color: gray;
+    background-color: #ffff;
+    border: none;
+    border-radius: 20px;
+}
+#radioOnn {
+    width: 40px;
+    height: 30px;
+    color: #ffff;
+    background-color: #1190CD;
+    border-radius: 20px;
+}
+
+@media (max-width: 1150px)
+{
+    #oderNav {
+        display: none;
+    }
+}
+
+
+/* Bloco estra */
+
+#blocoEstra {
+    margin-top: 10px;
+    border: 1px solid gray;
+    float: right;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* area quadrada */
+#areaMinMax {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-image: url(/imagens/Linha.png);
+    background-position: center;
+    background-size: 70%;
+    background-position-y: 40%;
+}
+
+#fomAreaMin {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+#fomAreaMax {
+    display: flex;
+    flex-direction: column;
+}
+
+#minArea {
+    width: 120px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+}
+
+#areaMinMax input::placeholder{
+    text-align: left;
+}
+
+#minArea:focus {
+    border: 2px solid #1190CD;
+    
+}
+
+/* Botoes garagem / banheiro*/
+
+#checkList li {
+    margin: 5px;
+}
+
+#radioGaragen {
+    width: 40px;
+    height: 30px;
+    color: gray;
+    background-color: #ffff;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+
+/* Apartamento lista */
+
+.apart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.apartImg {
+    width: 35%;
+    overflow: hidden;
+}
+
+.apartConteu {
+    padding: 2%;
+    width: 50%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.apartDescri {
+    font-size: 13px;
+}
+
+.apartTitulo {
+    font-size: 16px;
+}
+
+.apartAtrib {
+    font-size: 10px;
+}
+
+.apartValor{
+    font-size: 18px;
+    position: relative;
+    top: 30%;
+}
+
+#seApaga {
+
+}
+
+.seApagaText{
+    padding: 5px;
+    color: #1190CD;
+    border: 1px solid #1190CD;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.seApagaText::after {
+    border-radius: 50%;
+    color: #1190CD;
+    content: "×";
+    display: inline-block;
+    font-size: 16px;
+    height: 14px;
+    line-height: 14px;
+    padding: 1px;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    width: 14px;
+    transition: all 200ms ease-in-out;
+} 
+
+.apartEstra {
+    display: flex;
+    flex-direction: row;
+    margin: px;
+}
+
+.apartEstraDiv {
+    display: inline;
+    margin: 0px 3px;
+    padding: 3px;
+    background-color: #c7bcbc8a;
+    color: #696969;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+.listaLis:hover {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(51, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 12px 0px rgba(51, 50, 50, 1);
+    box-shadow:         0px 0px 12px 0px rgba(51, 50, 50, 1);
+}
+
+.totalDeApart {
+    margin: 20px 0;
+}
