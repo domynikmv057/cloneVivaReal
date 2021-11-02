@@ -1,7 +1,7 @@
 import { handleKeyUp } from "./debouceHandles.js"
 import { formatarTesto } from "./formata.js"
 import { listaHotel } from "./requestApi.js"
-//import { preTest } from "./testar.js"
+//import { historico } from "./testar.js"
 
 // const pegaLi = document.querySelector("#excluirClic")
 // pegaLi.addEventListener("click", (e)=>{
@@ -9,9 +9,4 @@ import { listaHotel } from "./requestApi.js"
 // })
 
 
-document.querySelector("#excluirClic").onclick = function(){
-    
-    const itemADeletar = document.querySelector(".oooooo")
-    itemADeletar.innerHTML = ""
-    console.log("hie");
-}
+

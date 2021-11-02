@@ -1,7 +1,10 @@
 import { dicionario } from "./dicionario.js"
+import { escutandoDepois } from "./exluirAoClicar.js"
+
 export async function criarPredio (promisses, estado){
     const pegaAPi = await promisses.search.result.listings;
 
+   
    
    
 
@@ -15,16 +18,19 @@ export async function criarPredio (promisses, estado){
    //BOTAO ESTADO
     const botaoClear = document.querySelector(".seApaga")
     const span = document.createElement("span")
+    botaoClear.innerHTML = "";
     span.innerText = `${estado}`
-    span.classList= "seApagaText"
+    span.classList= "seApagaText clicarr"
     botaoClear.append(span)
+
+    
     //FIM BOTAO ESTADO
 
-
+    const ul = document.querySelector(".listaDeApartamentos");
+    ul.innerHTML = "";
     //setando e mapeando todo o conteudo
     pegaAPi.map((item) =>{
         const ul = document.querySelector(".listaDeApartamentos");
-
         const li = document.createElement("li");
         li.classList ="listaLis"
         const section = document.createElement("section");
@@ -71,21 +77,20 @@ export async function criarPredio (promisses, estado){
         })
         estras.map((valor) => {
             const liApartEstra = document.createElement("li")
-            const divApartEstra = document.createElement("div");
-            divApartEstra.classList = "apartEstraDiv"
-            divApartEstra.innerText = `${traduz(valor)}`
-            liApartEstra.append(divApartEstra)
+            liApartEstra.classList = "apartEstraDiv"
+            liApartEstra.innerText = `${traduz(valor)}`
             ulSelect.append(liApartEstra)
+   
         })
         
         
         
         
         
-        
+        const price = item.listing.pricingInfos[0].price;
         const h2ApartValor = document.createElement("h2");
         h2ApartValor.classList = "apartValor"
-        h2ApartValor.innerText = `R$ ${item.listing.pricingInfos[0].price}`
+        h2ApartValor.innerText = `R$ ${new Intl.NumberFormat().format(price)}`
     
         // aqui eu monto uma boneca russa, colocando cada elementro dentro do outro
         divApartConteudo.append(pApartDescri, h2Titulo, pApartAtrib,ulSelect,h2ApartValor);
@@ -95,7 +100,7 @@ export async function criarPredio (promisses, estado){
 
 
     
-
+    escutandoDepois ()
 }
 
 function traduz (item){

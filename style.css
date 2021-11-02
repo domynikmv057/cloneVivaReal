@@ -461,7 +461,9 @@ main {
     text-align: center;
     font-size: 13px;
 }
-
+.seApagaText:hover {
+    background-color: #1191cd4b;
+}
 
 .seApagaText::after {
     border-radius: 50%;
@@ -472,28 +474,44 @@ main {
     height: 14px;
     line-height: 14px;
     padding: 1px;
-    position: absolute;
     right: 3px;
     text-align: center;
     width: 14px;
     transition: all 200ms ease-in-out;
 } 
 
+#excluiOnclick::after {
+    border-radius: 50%;
+    content: "×";
+    display: inline-block;
+    font-size: 16px;
+    height: 14px;
+    line-height: 14px;
+    padding: 1px;
+    right: 3px;
+    text-align: center;
+    width: 14px;
+    transition: all 200ms ease-in-out;
+} 
+ 
+
 .apartEstra {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: px;
 }
 
 .apartEstraDiv {
     display: inline;
-    margin: 0px 3px;
+    margin: 5px 3px;
     padding: 3px;
     background-color: #c7bcbc8a;
     color: #696969;
     border-radius: 50px;
     font-size: 10px;
 }
+
 
 .listaLis:hover {
     -webkit-box-shadow: 0px 0px 12px 0px rgba(51, 50, 50, 1);
@@ -503,4 +521,12 @@ main {
 
 .totalDeApart {
     margin: 20px 0;
+}
+
+.red {
+    color: red;
+}
+
+.errorText {
+    text-align: center;
 }
