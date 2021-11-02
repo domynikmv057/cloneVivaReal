@@ -8,6 +8,6 @@ requisições a uma API, e tratar os dados, para criar os elementos</p>
   <p>Links: </p>
   <ul>
     <li>E-mail: <a>domynikmv.057@gmail.com</a></li>
-     <li>projetoLive: <a>m</a></li>
+     <li>projetoLive: <a>https://eloquent-hopper-85ffc4.netlify.app/</a></li>
   </ul>
 </div>
