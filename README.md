@@ -4,10 +4,23 @@
 bem complexo, neste módulo de JS, fomos desafiados, a fazer um Clone do site Viva Real, o desafio foi cria dinamicamente uma lista de apartamentos a venda, tivemos que fazer
 requisições a uma API, e tratar os dados, para criar os elementos</p>
 
+<div align="center">
+    <h1> Imagens do projeto </h1><br/><br/><br/>
+ 
+    <h3>* Home</h3>
+    <img src="https://github.com/domynikmv057/cloneVivaReal/blob/main/repository_Readme/home.png" width="100%" ><br/><br/><br/><br/>
+    <h3>* Pesquisa </h3>
+    <img src="https://github.com/domynikmv057/cloneVivaReal/blob/main/repository_Readme/buscaSp.png" width="100%" ><br/><br/><br/><br/>
+    
+    <img src="https://github.com/domynikmv057/cloneVivaReal/blob/main/repository_Readme/buscaRj.png" width="100%" ><br/><br/><br/><br/>
+   
+
+</div>
+
 <div>
   <p>Links: </p>
   <ul>
     <li>E-mail: <a>domynikmv.057@gmail.com</a></li>
-     <li>projetoLive: <a>https://eloquent-hopper-85ffc4.netlify.app/</a></li>
+     <li>Veja o projeto em : <a>https://eloquent-hopper-85ffc4.netlify.app/</a></li>
   </ul>
 </div>
